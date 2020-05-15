@@ -6,7 +6,7 @@
 /*   By: hyooden <hyooden@student.21-school.ru>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/30 15:19:35 by hyooden           #+#    #+#             */
-/*   Updated: 2020/05/15 13:44:10 by hyooden          ###   ########.fr       */
+/*   Updated: 2020/05/15 18:40:57 by hyooden          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,4 +48,5 @@ char			*ft_substr(char const *s, unsigned int start, size_t len);
 char			*ft_strjoin(char const *s1, char const *s2);
 char			*ft_strtrim(char const *s1, char const *set);
 char			**ft_split(char const *s, char c);
+char			*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 #endif
